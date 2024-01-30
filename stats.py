@@ -52,3 +52,7 @@ class EpidemicStats:
         self.universe.screen.blit(max_infected_label, (20, 100))
 
         pygame.draw.rect(self.universe.screen, SimColor.LIMIT_LINE, (0, Screen.HEIGHT - Screen.MEDICAL_LIMIT, Screen.WIDTH, 1), 2)
+    """
+    End class
+    """
+    
